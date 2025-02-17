@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ardeliachristina.events2.HomeActivity">
+    <item
+        android:id="@+id/homeID"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/viewAllID"
+        android:orderInCategory="100"
+        android:title="View All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/buyID"
+        android:orderInCategory="100"
+        android:title="Buy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logoutID"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
